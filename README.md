@@ -1,8 +1,10 @@
-[eCommerce Application](
+(https://github.com/shivanshuu/eCommerce/blob/main/public/images/bookstore.jpeg)
+
+#**eCommerce Application**
 
 ## Application overview
-This is a e-Commerce application that a customer can use to purchase a book. 
-The application is written in Javascript (Node.js) and uses [ Stripe](https://stripe.com/) for payments. It uses handlebars for [templates] (hhttps://handlebarsjs.com/)) to generate the website content. To run the application, you'll need to create a Stripe account and retrieve API keys from the Stripe dashboard (you can create a free test account [here](https://dashboard.stripe.com/register)) 
+Sample application to set up a eCommerce store to sell books. 
+The application is written in Javascript (Node.js) and uses [Stripe](https://stripe.com/) for payments. It uses handlebars for [templates] (hhttps://handlebarsjs.com/)) to generate the website content. To run the application, you'll need to create a Stripe account and retrieve API keys from the Stripe dashboard (you can create a free test account [here](https://dashboard.stripe.com/register)) 
 
 ## Installation instructions
 1) Clone the repository => git clone https://github.com/shivanshuu/Stripe.git
