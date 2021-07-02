@@ -7,7 +7,7 @@ The application is written in JavaScript (Node.js) and uses [Stripe](https://str
 2) Install dependencies => npm install
 2) Create a .env file and put your Stripe SECRET_KEY. Put your Publishable Stripe Key in client.js. In order to test, use test mode keys.
 3) Run the application locally => npm start
-4) Navigate to [http://localhost:3000](http://localhost:3000) to view the home page.
+4) Navigate to [http://localhost:3000](http://localhost:3000) to view the home page and complete purchase of a book. Confirmation id returned by stripe elements API is displayed
 
 ## Application Stack
 In order to accept credit card payments, the application uses Stripe Elements. For a primer on how credit card payment works, please see [this](https://stripe.com/docs/payments/cards/overview). Stripe Elements provides rich JavaScript(JS) UI components to integrate Stripe Payments easily into your application. To integrate Stripe Elements, I used following [instructions](https://stripe.com/docs/payments/integration-builder) which has sample JS code and test card numbers. Please be careful in writing JS as small errors could cause page not to work properly. The errors can be viewed using More Tools -> Developer Tools in chrome. There might be some challenges where Stripe Elements UI Card is not getting displayed properly due to stylesheet issues. Please start with the stylesheet I have provided and then make changes for your look & feel. To view server side Node errors, you can print debug messages.
