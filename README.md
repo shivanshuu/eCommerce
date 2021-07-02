@@ -1,6 +1,6 @@
 ## Application overview
 Sample application to set up eCommerce store to sell books. 
-The application is written in JavaScript (Node.js) and uses [Stripe](https://stripe.com/) for payments. For Node, [express](https://expressjs.com/) is as web framework and [handlebars](https://handlebarsjs.com/) is used for HTML templates to generate content. To run the application, you'll need to create a Stripe account and retrieve API keys from the Stripe dashboard (you can create a free test account [here](https://dashboard.stripe.com/register)). Stripe provides test mode and live mode keys.
+The application is written in JavaScript (Node.js) and uses [Stripe](https://stripe.com/) for payments. For Node, [express](https://expressjs.com/) is used as web framework and [handlebars](https://handlebarsjs.com/) is used for HTML templates to generate content. To run the application, you'll need to create a Stripe account and retrieve API keys from the Stripe dashboard (you can create a free test account [here](https://dashboard.stripe.com/register)). Stripe provides test mode and live mode keys.
 
 ## Installation instructions
 1) Clone the repository => git clone https://github.com/shivanshuu/Stripe.git
@@ -10,7 +10,7 @@ The application is written in JavaScript (Node.js) and uses [Stripe](https://str
 4) Navigate to [http://localhost:3000](http://localhost:3000) to view the home page.
 
 ## Application Stack
-In order to accept credit card payments, the application uses Stripe Elements. For a primer on how credit card payment works, please see [this](https://stripe.com/docs/payments/cards/overview). Stripe Elements provides rich JavaScript(JS) UI components to integrate Stripe Payments easily into your application. To integrate Stripe Elements, I used following [instructions](https://stripe.com/docs/payments/integration-builder) which has sample JS code. Please be careful in writing JS as small errors could cause page not to work properly. The errors can be viewed using More Tools -> Developer Tools in chrome. There might be some challenges where Stripe Elements UI Card is not getting displayed properly due to stylesheet issues. Please start with the stylesheet we have provided and then make changes for your look & feel. To view server side Node errors, you can print debug messages into the console.
+In order to accept credit card payments, the application uses Stripe Elements. For a primer on how credit card payment works, please see [this](https://stripe.com/docs/payments/cards/overview). Stripe Elements provides rich JavaScript(JS) UI components to integrate Stripe Payments easily into your application. To integrate Stripe Elements, I used following [instructions](https://stripe.com/docs/payments/integration-builder) which has sample JS code and test card numbers. Please be careful in writing JS as small errors could cause page not to work properly. The errors can be viewed using More Tools -> Developer Tools in chrome. There might be some challenges where Stripe Elements UI Card is not getting displayed properly due to stylesheet issues. Please start with the stylesheet I have provided and then make changes for your look & feel. To view server side Node errors, you can print debug messages.
 
 ## Extending the Application
 In order to extend the application for your needs, you can do the following -
